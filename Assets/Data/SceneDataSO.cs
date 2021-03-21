@@ -6,8 +6,7 @@ using UnityEngine;
 public class SceneDataSO : ScriptableObject
 {
     // Player data
-    [Header("Player Data")]
-    public Transform playerPosition;
+    public Vector3 playerPosition;
     public int playerHealth;
 
 
